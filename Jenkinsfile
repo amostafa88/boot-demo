@@ -3,7 +3,7 @@ node {
   checkout scm
 
   //def mvnHome = tool 'M3'
-  env.PATH = "${tool 'apache-maven-3.3.9'}/bin:${env.PATH}"
+  env.PATH = "${tool 'M3'}/bin:${env.PATH}"
 
   stage 'Build the JAR'
   
